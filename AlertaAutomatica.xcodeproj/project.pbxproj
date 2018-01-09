@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F231911E357B15002E603A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F231901E357B15002E603A /* main.m */; };
+		57F231941E357B15002E603A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F231931E357B15002E603A /* AppDelegate.m */; };
+		57F231971E357B16002E603A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F231961E357B16002E603A /* ViewController.m */; };
+		57F2319A1E357B17002E603A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F231981E357B17002E603A /* Main.storyboard */; };
+		57F2319C1E357B17002E603A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F2319B1E357B17002E603A /* Assets.xcassets */; };
+		57F2319F1E357B17002E603A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F2319D1E357B17002E603A /* LaunchScreen.storyboard */; };
+		57F231AA1E357B18002E603A /* AlertaAutomaticaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F231A91E357B18002E603A /* AlertaAutomaticaTests.m */; };
+		57F231B51E357B19002E603A /* AlertaAutomaticaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F231B41E357B19002E603A /* AlertaAutomaticaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F231A61E357B18002E603A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F231841E357B13002E603A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F2318B1E357B15002E603A;
+			remoteInfo = AlertaAutomatica;
+		};
+		57F231B11E357B19002E603A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F231841E357B13002E603A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F2318B1E357B15002E603A;
+			remoteInfo = AlertaAutomatica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F2318C1E357B15002E603A /* AlertaAutomatica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertaAutomatica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F231901E357B15002E603A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57F231921E357B15002E603A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57F231931E357B15002E603A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57F231951E357B16002E603A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57F231961E357B16002E603A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57F231991E357B17002E603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F2319B1E357B17002E603A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F2319E1E357B17002E603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57F231A01E357B17002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F231A51E357B18002E603A /* AlertaAutomaticaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertaAutomaticaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F231A91E357B18002E603A /* AlertaAutomaticaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertaAutomaticaTests.m; sourceTree = "<group>"; };
+		57F231AB1E357B18002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F231B01E357B19002E603A /* AlertaAutomaticaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertaAutomaticaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F231B41E357B19002E603A /* AlertaAutomaticaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertaAutomaticaUITests.m; sourceTree = "<group>"; };
+		57F231B61E357B19002E603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F231891E357B15002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231A21E357B18002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231AD1E357B18002E603A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F231831E357B12002E603A = {
+			isa = PBXGroup;
+			children = (
+				57F2318E1E357B15002E603A /* AlertaAutomatica */,
+				57F231A81E357B18002E603A /* AlertaAutomaticaTests */,
+				57F231B31E357B19002E603A /* AlertaAutomaticaUITests */,
+				57F2318D1E357B15002E603A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F2318D1E357B15002E603A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F2318C1E357B15002E603A /* AlertaAutomatica.app */,
+				57F231A51E357B18002E603A /* AlertaAutomaticaTests.xctest */,
+				57F231B01E357B19002E603A /* AlertaAutomaticaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F2318E1E357B15002E603A /* AlertaAutomatica */ = {
+			isa = PBXGroup;
+			children = (
+				57F231921E357B15002E603A /* AppDelegate.h */,
+				57F231931E357B15002E603A /* AppDelegate.m */,
+				57F231951E357B16002E603A /* ViewController.h */,
+				57F231961E357B16002E603A /* ViewController.m */,
+				57F231981E357B17002E603A /* Main.storyboard */,
+				57F2319B1E357B17002E603A /* Assets.xcassets */,
+				57F2319D1E357B17002E603A /* LaunchScreen.storyboard */,
+				57F231A01E357B17002E603A /* Info.plist */,
+				57F2318F1E357B15002E603A /* Supporting Files */,
+			);
+			path = AlertaAutomatica;
+			sourceTree = "<group>";
+		};
+		57F2318F1E357B15002E603A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F231901E357B15002E603A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F231A81E357B18002E603A /* AlertaAutomaticaTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F231A91E357B18002E603A /* AlertaAutomaticaTests.m */,
+				57F231AB1E357B18002E603A /* Info.plist */,
+			);
+			path = AlertaAutomaticaTests;
+			sourceTree = "<group>";
+		};
+		57F231B31E357B19002E603A /* AlertaAutomaticaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F231B41E357B19002E603A /* AlertaAutomaticaUITests.m */,
+				57F231B61E357B19002E603A /* Info.plist */,
+			);
+			path = AlertaAutomaticaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F2318B1E357B15002E603A /* AlertaAutomatica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F231B91E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomatica" */;
+			buildPhases = (
+				57F231881E357B15002E603A /* Sources */,
+				57F231891E357B15002E603A /* Frameworks */,
+				57F2318A1E357B15002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertaAutomatica;
+			productName = AlertaAutomatica;
+			productReference = 57F2318C1E357B15002E603A /* AlertaAutomatica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F231A41E357B18002E603A /* AlertaAutomaticaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F231BC1E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomaticaTests" */;
+			buildPhases = (
+				57F231A11E357B18002E603A /* Sources */,
+				57F231A21E357B18002E603A /* Frameworks */,
+				57F231A31E357B18002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F231A71E357B18002E603A /* PBXTargetDependency */,
+			);
+			name = AlertaAutomaticaTests;
+			productName = AlertaAutomaticaTests;
+			productReference = 57F231A51E357B18002E603A /* AlertaAutomaticaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57F231AF1E357B18002E603A /* AlertaAutomaticaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F231BF1E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomaticaUITests" */;
+			buildPhases = (
+				57F231AC1E357B18002E603A /* Sources */,
+				57F231AD1E357B18002E603A /* Frameworks */,
+				57F231AE1E357B18002E603A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F231B21E357B19002E603A /* PBXTargetDependency */,
+			);
+			name = AlertaAutomaticaUITests;
+			productName = AlertaAutomaticaUITests;
+			productReference = 57F231B01E357B19002E603A /* AlertaAutomaticaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F231841E357B13002E603A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jose David Bustos H";
+				TargetAttributes = {
+					57F2318B1E357B15002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					57F231A41E357B18002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 57F2318B1E357B15002E603A;
+					};
+					57F231AF1E357B18002E603A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 57F2318B1E357B15002E603A;
+					};
+				};
+			};
+			buildConfigurationList = 57F231871E357B14002E603A /* Build configuration list for PBXProject "AlertaAutomatica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F231831E357B12002E603A;
+			productRefGroup = 57F2318D1E357B15002E603A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F2318B1E357B15002E603A /* AlertaAutomatica */,
+				57F231A41E357B18002E603A /* AlertaAutomaticaTests */,
+				57F231AF1E357B18002E603A /* AlertaAutomaticaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F2318A1E357B15002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F2319F1E357B17002E603A /* LaunchScreen.storyboard in Resources */,
+				57F2319C1E357B17002E603A /* Assets.xcassets in Resources */,
+				57F2319A1E357B17002E603A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231A31E357B18002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231AE1E357B18002E603A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F231881E357B15002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F231971E357B16002E603A /* ViewController.m in Sources */,
+				57F231941E357B15002E603A /* AppDelegate.m in Sources */,
+				57F231911E357B15002E603A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231A11E357B18002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F231AA1E357B18002E603A /* AlertaAutomaticaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F231AC1E357B18002E603A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F231B51E357B19002E603A /* AlertaAutomaticaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F231A71E357B18002E603A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F2318B1E357B15002E603A /* AlertaAutomatica */;
+			targetProxy = 57F231A61E357B18002E603A /* PBXContainerItemProxy */;
+		};
+		57F231B21E357B19002E603A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F2318B1E357B15002E603A /* AlertaAutomatica */;
+			targetProxy = 57F231B11E357B19002E603A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F231981E357B17002E603A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F231991E357B17002E603A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F2319D1E357B17002E603A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F2319E1E357B17002E603A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F231B71E357B19002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F231B81E357B19002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F231BA1E357B19002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertaAutomatica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomatica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57F231BB1E357B19002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlertaAutomatica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomatica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57F231BD1E357B19002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlertaAutomaticaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomaticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertaAutomatica.app/AlertaAutomatica";
+			};
+			name = Debug;
+		};
+		57F231BE1E357B19002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlertaAutomaticaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomaticaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertaAutomatica.app/AlertaAutomatica";
+			};
+			name = Release;
+		};
+		57F231C01E357B19002E603A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlertaAutomaticaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomaticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlertaAutomatica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		57F231C11E357B19002E603A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlertaAutomaticaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.AlertaAutomaticaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlertaAutomatica;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F231871E357B14002E603A /* Build configuration list for PBXProject "AlertaAutomatica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231B71E357B19002E603A /* Debug */,
+				57F231B81E357B19002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F231B91E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomatica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231BA1E357B19002E603A /* Debug */,
+				57F231BB1E357B19002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57F231BC1E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomaticaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231BD1E357B19002E603A /* Debug */,
+				57F231BE1E357B19002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57F231BF1E357B19002E603A /* Build configuration list for PBXNativeTarget "AlertaAutomaticaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F231C01E357B19002E603A /* Debug */,
+				57F231C11E357B19002E603A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F231841E357B13002E603A /* Project object */;
+}
